@@ -1,105 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assest/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Aulas-de-HTML/assest/css/style.css">
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                  <span class="navbar-toggler-icon"></span>
-            </button>
-              
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ação</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Algo mais aqui</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Desativado</a>
-                    </li>
-                </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-                  </form>
-            </div>
-        </nav>  
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block " src="https://www.42frases.com.br/wp-content/uploads/2019/04/frases-bonitas-de-deus-1.png" alt="Primeiro Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block " src="https://www.mensagensbonitas.com.br/wp-content/uploads/2019/01/frases-de-reflex%C3%A3o.jpg" alt="Segundo Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block " src="https://thypix.com/wp-content/uploads/2018/05/Sommerlandschaft-Bilder-93.jpg" alt="Terceiro Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                            <h5>dskadjadjkedkçlokpofk</h5>
-                            <p>mdmskaddkfksfksfçssçlsflçdfdl</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Próximo</span>
-                </a>
+  <!--Barra de navengador-->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Mais informações
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--Campo relacionado a figure de slides-->
+  <div id="carouselExampleIndicators" class="carousel slide m-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block " src="https://www.42frases.com.br/wp-content/uploads/2019/04/frases-bonitas-de-deus-1.png"
+          alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block "
+          src="https://www.mensagensbonitas.com.br/wp-content/uploads/2019/01/frases-de-reflex%C3%A3o.jpg"
+          alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block " src="https://thypix.com/wp-content/uploads/2018/05/Sommerlandschaft-Bilder-93.jpg"
+          alt="Terceiro Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>dskadjadjkedkçlokpofk</h5>
+          <p>mdmskaddkfksfksfçssçlsflçdfdl</p>
         </div>
-         <div class="container mt-4">
-                <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.aprendizdeviajante.com/wp-content/uploads/2016/02/pordosolsiestakey.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                        </div>
-                </div>
-                <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.aprendizdeviajante.com/wp-content/uploads/2016/02/pordosolsiestakey.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                        </div>
-                </div>
-                <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.aprendizdeviajante.com/wp-content/uploads/2016/02/pordosolsiestakey.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                        </div>
-                </div>
-         </div>
-       
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <!--Cards de informações e posts-->
+  <div class="row">
+    <div class="col-md-9">
+      <div class="container mt-4">
+        <div class="card m-2" style="background-color:#f8f8f8 ;">
+          <img class="card-img-top"
+            src="https://www.aprendizdeviajante.com/wp-content/uploads/2016/02/pordosolsiestakey.jpg"
+            alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolores aspernatur sit.
+              Cupiditate laudantium, expedita est ab commodi nostrum itaque consequatur voluptate ratione laborum porro
+              cumque nihil, culpa hic blanditiis.
+              do card.</p>
+          </div>
+        </div>
+        <div class="card m-2" style="background-color:#f8f8f8 ;">
+          <img class="card-img-top"
+            src="https://www.aprendizdeviajante.com/wp-content/uploads/2016/02/pordosolsiestakey.jpg"
+            alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit labore delectus
+              et neque voluptate rem architecto eos animi a expedita aut nesciunt placeat repellendus fuga, laborum
+              alias, laudantium autem deserunt?</p>
+          </div>
+        </div>
+        <div class="card m-2 ml-4" style="background-color:#f8f8f8 ;">
+          <div class="card-body">
+            <h3>KKKK</h3>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate quas,
+              sunt cupiditate nam accusantium, iusto dicta unde at nihil sed inventore autem rem iure incidunt, a sit.
+              Neque, dolorum!</p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="container">
+        <div class="card m-2" style="background-color:#f8f8f8 ;">
+          <img class="card-img-top"
+            src="https://www.aprendizdeviajante.com/wp-content/uploads/2016/02/pordosolsiestakey.jpg"
+            alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione blanditiis enim
+              quidem nesciunt deserunt, ex qui dolore dicta suscipit. Praesentium minima magnam non recusandae, error
+              consequatur at aperiam ipsa facilis.</p>
+          </div>
+        </div>
+        <div class="card m-2" style="background-color:#f8f8f8 ;">
+          <img class="card-img-top"
+            src="https://www.aprendizdeviajante.com/wp-content/uploads/2016/02/pordosolsiestakey.jpg"
+            alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat architecto, maxime
+              officiis iure, dignissimos soluta iusto assumenda quisquam provident quis accusantium aliquid libero qui
+              mollitia! Natus delectus quas fuga laudantium!</p>
+          </div>
+        </div>
+        <div class="card m-2 ml-4" style="background-color:#f8f8f8 ;">
+          <div class="card-body">
+            <h3>KKKKK</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, assumenda? Amet error
+              praesentium sapiente numquam temporibus aliquam ullam, unde reiciendis soluta facilis incidunt quo.
+              Perferendis voluptates esse iure vitae sint!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+
+      khfjlhgkhklj
+    </div>
+  </div>
+
+  <div class="w-100 tamanho " style="background-color: black;">
+<div class="container">
+    <form class="form ">
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputEmail4">Nome</label>
+          <input type="Text" class="form-control" id="inputEmail4" placeholder="Nome">
+        </div>
+        <div class="form-group col-md-12">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Senha</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputEstado"></label>
+          <select id="inputEstado" class="form-control">
+            <option selected>Estado</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputCEP"></label>
+          <input type="text" class="form-control" id="inputCEP">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Clique em mim
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+  </div>
+
+
+
+  <div class="footer ">
+      <p>Contato:</p>
+      <p>E-mail:</p>
+      <p>Endereço:</p>
+    <footer>
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="index2.html"> SemNome</a>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
 </body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 </html>
