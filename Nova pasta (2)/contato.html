@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Nova pasta (2)/Css/contato.css">
+
+</head>
+
+<body>
+
+
+    <header class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="../Nova pasta (2)/Nova pasta/logo-nav.png" id="logo"></a>
+                <button class=" navbar-toggler" id="buttonCollapse" type="button" data-toggle="collapse"
+                    data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                    aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Home <span class="sr-only">(página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Cadastre-se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Doar</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="row" id="titulo">
+        <div class="col-md-12">
+            <h3>Entre em contato conosco</h3>
+        </div>
+    </div>
+
+    <div class="container" id="formulario">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite o nome" required>
+        </div>
+        <div class="form-group">
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text" class="form-control" id="sobrenome" placeholder="Digite o sobrenome" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com.br" required>
+        </div>
+        <div class="form-group">
+            <label for="Telefone">Telefone</label>
+            <input type="tel" class="form-control" id="tel" onKeyPress="numero()" placeholder="(XX) 99999-9999">
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary butao" onclick="validacao()">Enviar</button>
+    </div>
+
+    <div id="bg"></div>
+    <div class="box">
+        <a href="" id="close">x</a>
+    </div>
+
+    <div class="row" id="subFooter">
+        <div class="col-md-2">
+            <a class="btn btn-social-icon btn-twitter">
+                <span class="fa fa-twitter"></span>
+            </a>
+        </div>
+        <div class="col-md-8">
+
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+
+    <footer class="row">
+        <div class="col-md-12">
+            <p> COMUDE COMPANY ©</p>
+            <p> All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="../Nova pasta (2)/js/contato.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
