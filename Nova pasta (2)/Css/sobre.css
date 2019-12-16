@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0%;
@@ -44,7 +45,7 @@
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    color:rgba(65, 198, 243, 0.85);
+    color:#38b6ff;
 }
 .sobrecomud{
     justify-content: center;
@@ -90,7 +91,7 @@
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    color:rgba(65, 198, 243, 0.85);
+    color:#38b6ff;
 }
 
 /*estilização do flip-card*/
@@ -194,14 +195,28 @@
 /*Estilização do footer*/
 #subFooter{
     margin-top:10%;
-    background-color: rgba(65, 198, 243, 0.85);
+    background-color: #38b6ff;
     width:100%;
     height: 100px;
 
 }
+#subFooter .btn-github {
+    color: #fff;
+    background-color: #38b6ff;
+    border-color: #38b6ff;
+}
+#subFooter .btn-social-icon>:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    font-size: 1.6em;
+    text-align: center;
+}
 
 footer{
-    background-color: rgba(65, 198, 243, 0.85);
+    background-color: #38b6ff;
     width:100%;
 }
 footer p{
